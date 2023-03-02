@@ -1,0 +1,34 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import './App.css'
+
+function App() {
+  const [busca, setBusca] = useState([])
+  const [input,setInput] = useState('')
+
+  const options = [
+    {nome:'abner',idade:5},
+    {nome:'manuel',idade:15},
+    {nome:'regina',idade:50},
+    {nome:'leticia',idade:18},
+  ]
+
+  function pesquisar(texto){
+    let result = options.filter((item) => item.nome.includes(texto) )
+    setBusca(result)
+    setInput(texto)
+    if(texto == ''){
+      setBusca([])
+    }
+  }
+
+  return (
+    <div className="App">
+      <h2>Search</h2>
+      <input type="text" onChange={(e)=> pesquisar(e.target.value)}/>
+      {input.length == 0 ? '': busca.map((item) => <div>{item.nome} com {item.idade} anos</div>)}
+    </div>
+  )
+}
+
+export default App

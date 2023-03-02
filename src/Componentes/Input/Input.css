@@ -1,0 +1,31 @@
+.pesquisa-livro {
+    background: transparent;
+    border: 1px solid #FFF;
+    padding: 20px 40px;
+    border-radius: 50px;
+    width: 500px;
+    color: rgba(255, 255, 255, 0.753);
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pesquisa-livro::placeholder{
+    color:rgb(188, 220, 248)
+}
+
+    /* ESTILO LIVRO RESULTADO*/
+.resultado-livro{
+    border: 1px solid rgb(95, 224, 217);
+    cursor: pointer;
+}
+.resultado-livro:hover{
+    border: 2px solid rgb(95, 224, 101);
+}
+.p{
+    font-size: 18px;
+}
+.resultado-livro img{
+    height: 220px;
+    width: 180px;
+}
+

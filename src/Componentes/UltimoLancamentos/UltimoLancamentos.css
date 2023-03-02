@@ -1,0 +1,22 @@
+.container-secao{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.titulo-lancamentos{
+    padding: 25px 0 ;
+    color: rgb(235, 172, 0);
+    font-size: 32px;
+    text-decoration: underline;
+}
+.novos-livros{
+    display: flex;
+    justify-content: center;
+    background-color: #EBECEE;
+    width: 100vw;
+    padding: 5px;
+
+}

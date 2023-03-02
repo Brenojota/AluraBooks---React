@@ -1,0 +1,14 @@
+.card-recomenda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.descricao{
+    display: flex;
+    justify-content: center;
+    background-color: #EBECEE;
+    width: 100vw;
+    padding: 5px;
+
+}

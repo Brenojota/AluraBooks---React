@@ -1,0 +1,31 @@
+.opcoes{
+    display: flex;
+    padding-left: 45px;
+
+}
+.opcao{ 
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 5px;
+    cursor: pointer;
+    min-width: 120px;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.icone{
+    margin: 0 30px;
+    width: 25px;
+}
+
+li{
+    list-style: none;
+}
